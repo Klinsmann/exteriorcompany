@@ -1,0 +1,162 @@
+/*---------------------------------------------------------------------------------------
+layout.css Este archivo contiene los estilos css que determinan el diseño de nuestro Sitio
+-------------------------------------------------------------------------------------- */
+body{
+	margin:0;
+}
+.nf{
+	clear:both;
+}
+nav{
+	background:url(../images/bg_menu.gif) repeat-x;
+}
+
+.content-nav ul.menu{
+	list-style:none;
+	margin:0 auto;
+	width:940px;
+}
+
+.content-nav ul.menu li{
+	display:inline-block;
+	padding:29px;
+}
+
+.content-nav ul.menu li a{
+	font-family:arial;
+	color:#fff;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-size:13px;
+}
+header{
+	background:url(../images/bg_header2.jpg) repeat-x;
+}
+.content-header{
+	width:940px;
+	margin:0 auto;
+	background:url(../images/bg_header.jpg) top center no-repeat;
+}
+.content-header figure{
+	margin:0;
+	width:255px;
+	display:inline-block;
+	margin-left:25px;
+	margin-top:15px;
+	
+}
+.content-header .titular{
+	display:inline-block;
+	
+}
+.content-header .titular h1{
+	font-family:arial;
+	font-size:40px;
+	color:#fff;
+	vertical-align:top;
+	border-left:1px dashed #c3c3c3;
+	margin-left:20px;
+	padding-left:20px;
+	font-weight:normal;
+}
+
+.galeria{
+	margin-top:20px;
+}
+.galeria .ari-image-slider{
+	border:10px solid #fff;
+	border-radius:8px;
+	height:347px;
+}
+.slogan{
+	width:936px;
+	margin-left: 73px;
+	padding-bottom:25px;
+}
+
+.img-slogan{
+	float:left;
+	border-right:1px dotted #ccc;
+	padding-right:35px;
+	margin-right:35px;
+}
+.txt-slogan{
+	color: #fff;
+	line-height: 155%;
+	width: 796px;
+	padding-top: 1px;
+}
+.contenido{
+	background:#f3f3f3;
+}
+.galeria2{
+	width:950px;
+	margin:0 auto;
+}
+.contenido{
+	width:970px;
+	margin:0 auto;
+	font-family:arial;
+}
+.about, .articles, .location{
+	width:270px;
+	display:inline-block;
+	margin-right:45px;
+	vertical-align:top;
+}
+.about{
+	margin-left:25px;
+}
+.about a{
+	background:#60a40a;
+	padding:8px 18px;
+	border-radius:5px;
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:13px;
+}
+.location{
+	margin-right:0;
+}
+.contenido h3{
+	font-weight:normal;
+	font-size:24px;
+}
+.contenido p, .contenido ul, .contenido span{
+	font-weight:normal;
+	font-size:13px;
+	line-height: 228%;
+}
+
+footer{
+	width:970px;
+	margin:0 auto;
+	font-family:arial;
+	font-weight:normal;
+	line-height:90%;
+	font-size:13px;
+	background:#f3f3f3;
+}
+.content-footer{
+	text-align:center;
+}
+/*--------------------------------------------------------------------------------------------------
+ Clase .clearfix: Esta clase hacer que los elementos no flotantes que contienen elementos flotantes,
+ adapten su altura en base a los elementos flotantes que contienen.
+ --------------------------------------------------------------------------------------------------*/
+	
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+* html > body .clearfix {
+    display: block;
+    width: 100%;
+}
+* html .clearfix {
+    height: 1%;
+}
